@@ -1,3 +1,69 @@
 body {
 	background: blue;
 }
+
+img {
+  width: 50px;
+  margin: auto;
+}
+#team {
+  font-family: 'Architects Daughter', cursive;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+}
+#team-title {
+  font-size: 50px;
+  text-align: center;
+  height: 100px;
+}
+.name {
+  font-size: 30px;
+  color: red;
+  text-align: center;
+}
+p {
+  text-align: center;
+}
+.face-image {
+  width: 50%;
+  background-color: #717FAC;
+  border-radius: 50%;
+  border: 5px solid grey;
+  padding: 30px;
+  flex-grow: 1;
+  margin: auto;
+}
+#slemanp {
+  background-color: green;
+}
+#harryp {
+  background-color: blue;
+}
+#leop {
+  background-color: yellow;
+}
+#veredp {
+  background-color: pink;
+}
+.portfolio {
+  margin-top: 40px;
+  flex-grow: 1;
+  margin: auto;
+}
+.codewars {
+  border-radius: 70px;
+}
+.media {
+  margin:0 auto;
+  flex-grow: 1;
+}
+#pictures {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  border: 1px solid red;
+  margin-top: 200px;
+}
