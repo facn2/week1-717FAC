@@ -4,42 +4,43 @@
 * {
 margin: 0px;
 padding: 0px;
+font-family: 'Architects Daughter', cursive;
 }
-
+#about
+{
+  width:100%;
+  height:100vh;
+}
 .landing {
-    width: 100%;
-    height: 100vh;
-    background: url("headerimg.JPG") no-repeat center center fixed;
-    background-size: cover;
+  width: 100%;
+  height: 100vh;
+  background: url("headerimg.JPG") no-repeat center center fixed;
+  background-size: cover;
 }
-
 .wrapper {
-	width: 65%;
+	width: 50%;
 	border: solid 2px mistyrose;
 	padding-top: 50px;
-    position: fixed;
-    top: 0px;
-    right: 0px;
+  position: fixed;
+  top: 0px;
+  right: 0px;
 }
-
 h1 {
 	text-align: left;
 	padding-bottom: 20px;
-	font-size: 24px;
-    font-weight: 900px;
-    font-family: Slack-Lato;
+	font-size: 50px;
+  font-weight: 900px;
+  color: #9DA5A9;
 }
-
 h4 {
-	font-size: 15px;
+	font-size: 20px;
 	text-align: left;
 }
-
 .bottom {
     background-color: #333;
     position: absolute;
     width: 100%;
-    bottom: 0px; 
+    bottom: 0px;
     border: 2px solid pink;
     display: flex;
 }
@@ -69,63 +70,74 @@ h4 {
     background-color: #333;
     position: fixed;
     width: 100%;
-    top: 0px; 
+    top: 0px;
     border: 2px solid pink;
     display: flex;
 }
 
-
-
-
-
+#about {
+  text-align: center;
+  font-size: 30px;
+  background-color: #717fac;
+}
+#about-text {
+  width:70%;
+  margin: auto;
+  padding: 30px;
+}
+#about-title {
+  padding: 30px;
+  font-size: 40px;
+}
+#fac {
+  max-width: 200px;
+  max-height: 200px;
+}
 #team {
-  font-family: 'Architects Daughter', cursive;
   margin: auto;
 	background-color: #E6E4DE;
 }
 #team-title {
-  font-size: 50px;
+  font-size: 40px;
   text-align: center;
   height: 100px;
 	margin: 0;
-	margin-top: 25px;
+  padding-top: 30px;
 }
 #pictures {
   display: flex;
   justify-content: center;
 }
-.portfolio {
-  margin-top: 40px;
-}
 .personal-photo {
 	display: flex;
 	justify-content: center;
-	background-color: grey;
 	border-radius: 50%;
+  padding: 10px;
 }
 .face-image {
-	width: 50%;
+  width: 200px;
+  height: 200px;
 	border-radius: 50%;
-  border: 5px solid #E6E4DE;
-  padding: 50px;
+  background-color: #E6E4DE;
+  padding: 10px;
 	margin: 0 auto;
 	height: 15%;
 }
 #slemanp {
-  background-color: #83FA17;
 	margin: 0 auto;
+  border: 30px solid #83FA17;
 }
 #harryp {
-  background-color: #17BCFA;
+  border: 30px solid #17BCFA;
 }
 #leop {
-  background-color: #F4FA17;
+  border: 30px solid #F4FA17;
 }
 #veredp {
-  background-color: #E397D3;
+  border: 30px solid #E397D3;
 }
 .name {
-  font-size: 40px;
+  font-size: 25px;
   color: #222222;
   text-align: center;
 }
@@ -135,6 +147,7 @@ p {
 .media {
 	display: flex;
 	justify-content: center;
+  padding: 30px;
 }
 .social {
   width: 50px;
