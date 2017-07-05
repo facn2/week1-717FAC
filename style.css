@@ -1,69 +1,66 @@
-body {
-	background: blue;
-}
 
-img {
-  width: 50px;
-  margin: auto;
-}
 #team {
   font-family: 'Architects Daughter', cursive;
-  width: 100%;
-  display: flex;
-  justify-content: center;
   margin: auto;
+	background-color: #E6E4DE;
 }
 #team-title {
   font-size: 50px;
   text-align: center;
   height: 100px;
+	margin: 0;
+	margin-top: 25px;
+}
+#pictures {
+  display: flex;
+  justify-content: center;
+}
+.portfolio {
+  margin-top: 40px;
+}
+.personal-photo {
+	display: flex;
+	justify-content: center;
+	background-color: grey;
+	border-radius: 50%;
+}
+.face-image {
+	width: 50%;
+	border-radius: 50%;
+  border: 5px solid #E6E4DE;
+  padding: 50px;
+	margin: 0 auto;
+	height: 15%;
+}
+#slemanp {
+  background-color: #83FA17;
+	margin: 0 auto;
+}
+#harryp {
+  background-color: #17BCFA;
+}
+#leop {
+  background-color: #F4FA17;
+}
+#veredp {
+  background-color: #E397D3;
 }
 .name {
-  font-size: 30px;
-  color: red;
+  font-size: 40px;
+  color: #222222;
   text-align: center;
 }
 p {
   text-align: center;
 }
-.face-image {
-  width: 50%;
-  background-color: #717FAC;
-  border-radius: 50%;
-  border: 5px solid grey;
-  padding: 30px;
-  flex-grow: 1;
-  margin: auto;
+.media {
+	display: flex;
+	justify-content: center;
 }
-#slemanp {
-  background-color: green;
-}
-#harryp {
-  background-color: blue;
-}
-#leop {
-  background-color: yellow;
-}
-#veredp {
-  background-color: pink;
-}
-.portfolio {
-  margin-top: 40px;
-  flex-grow: 1;
-  margin: auto;
+.social {
+  width: 50px;
+  margin: 0px 10px;
 }
 .codewars {
   border-radius: 70px;
-}
-.media {
-  margin:0 auto;
-  flex-grow: 1;
-}
-#pictures {
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  margin: 0 auto;
-  border: 1px solid red;
-  margin-top: 200px;
 }
