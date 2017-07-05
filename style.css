@@ -143,3 +143,66 @@ p {
 .codewars {
   border-radius: 70px;
 }
+
+/*Form*/
+
+.background-form {
+  background-color: pink;
+  text-align: center;
+  padding-bottom: 15px;
+  font-family: 'Architects Daughter', cursive;
+}
+
+.intro {
+  padding-top: 15px;
+  padding-bottom: 17px;
+  font-size: 25px;
+}
+
+form {
+  display: flex;
+  margin: 0 auto;
+  flex-wrap: wrap;
+  max-width: 280px;
+  /*border: 2px solid goldenrod*/
+}
+
+label {
+  font-family: 'Architects Daughter', cursive;
+}
+
+input {
+  width: 170px;
+  margin-bottom: 18px;
+  height: 20px;
+  font-family: 'Architects Daughter';
+}
+
+#firstname {
+  transform: translateX(5px);
+}
+
+#lastname {
+  transform: translateX(8px);
+}
+
+#email {
+  transform: translateX(52px);
+}
+
+#telephone {
+  transform: translateX(14px);
+}
+
+#submit {
+ height: 25px;
+ width: 47px;
+ margin: auto;
+ border-radius: 10px;
+ font-family: 'Architects Daughter';
+ background-color: pink;
+ border-color: black;
+ box-shadow: 0 0 5px rgba(0, 0, 0, 0.12), inset 0 0 2px rgba(0, 0, 0, 0.19);
+}
+
+
