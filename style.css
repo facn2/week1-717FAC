@@ -1,3 +1,66 @@
-body {
-	background: blue;
+
+#team {
+  font-family: 'Architects Daughter', cursive;
+  margin: auto;
+	background-color: #E6E4DE;
+}
+#team-title {
+  font-size: 50px;
+  text-align: center;
+  height: 100px;
+	margin: 0;
+	margin-top: 25px;
+}
+#pictures {
+  display: flex;
+  justify-content: center;
+}
+.portfolio {
+  margin-top: 40px;
+}
+.personal-photo {
+	display: flex;
+	justify-content: center;
+	background-color: grey;
+	border-radius: 50%;
+}
+.face-image {
+	width: 50%;
+	border-radius: 50%;
+  border: 5px solid #E6E4DE;
+  padding: 50px;
+	margin: 0 auto;
+	height: 15%;
+}
+#slemanp {
+  background-color: #83FA17;
+	margin: 0 auto;
+}
+#harryp {
+  background-color: #17BCFA;
+}
+#leop {
+  background-color: #F4FA17;
+}
+#veredp {
+  background-color: #E397D3;
+}
+.name {
+  font-size: 40px;
+  color: #222222;
+  text-align: center;
+}
+p {
+  text-align: center;
+}
+.media {
+	display: flex;
+	justify-content: center;
+}
+.social {
+  width: 50px;
+  margin: 0px 10px;
+}
+.codewars {
+  border-radius: 70px;
 }
