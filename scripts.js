@@ -1,19 +1,16 @@
-const nav = document.querySelector(".nav");
-const wrapper = document.querySelector(".wrapper");
+var nav = document.querySelector(".nav");
+var wrapper = document.querySelector(".wrapper");
 
-const navHeight = nav.offsetHeight;
-const topOfNav = nav.offsetTop;
+var navHeight = nav.offsetHeight;
+var topOfNav = nav.offsetTop;
 console.log(topOfNav);
-const windowHeight = window.innerHeight;
+var windowHeight = window.innerHeight;
 
-const wrapperHeight = document.querySelector(".wrapper").offsetHeight;
+var wrapperHeight = document.querySelector(".wrapper").offsetHeight;
 console.log(wrapperHeight);
 
-// console.log(wrapperHeight)
-
 function fixNav () {
-const currentScroll = window.scrollY;
-// console.log(currentScroll);
+var currentScroll = window.scrollY;
 
 	if (currentScroll >= topOfNav) {
 		document.body.style.paddingTop = navHeight;
