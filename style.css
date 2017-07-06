@@ -19,6 +19,9 @@ font-family: 'Architects Daughter', cursive;
   top: 0px;
   right: 0px;
 }
+#about, #team, #contact {
+  width: 100%;
+}
 h1 {
 	text-align: left;
 	padding-bottom: 20px;
