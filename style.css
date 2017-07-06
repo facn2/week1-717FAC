@@ -2,9 +2,9 @@
 /*CSS Normalize*/
 
 * {
-margin: 0px;
-padding: 0px;
-font-family: 'Architects Daughter', cursive;
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Architects Daughter', cursive;
 }
 .landing {
   width: 100%;
@@ -34,42 +34,36 @@ h4 {
 	text-align: left;
 }
 .bottom {
-    background-color: #333;
-    position: absolute;
-    width: 100%;
-    bottom: 0px;
-    display: flex;
+  background-color: #333;
+  position: absolute;
+  width: 100%;
+  bottom: 0px;
+  display: flex;
 }
-
-.wrappermenu {
+.wrapper-menu {
 	display: flex;
 	width: 40%;
 	margin: auto;
 }
-
 .nav a {
 	flex-grow: 1;
-    color: #f2f2f2;
-    text-align: center;
-    padding: 10px 10px;
-    text-decoration: none;
-    font-size: 17px;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 10px 10px;
+  text-decoration: none;
+  font-size: 17px;
 }
-
 .nav a:hover {
-    background-color: #ddd;
-    color: black;
+  background-color: #ddd;
+  color: black;
 }
-
-
 .top {
-    background-color: #333;
-    position: fixed;
-    width: 100%;
-    top: 0px;
-    display: flex;
+  background-color: #333;
+  position: fixed;
+  width: 100%;
+  top: 0px;
+  display: flex;
 }
-
 #about {
   text-align: center;
   font-size: 30px;
@@ -157,54 +151,44 @@ p {
 }
 
 /*Form*/
-
 #contact {
   background-color: #9E71AC;
   text-align: center;
   padding-bottom: 15px;
   font-family: 'Architects Daughter', cursive;
 }
-
 .intro {
   padding-top: 15px;
   padding-bottom: 17px;
   font-size: 40px;
 }
-
 form {
   display: flex;
   margin: 0 auto;
   flex-wrap: wrap;
   max-width: 320px;
 }
-
 label {
   font-family: 'Architects Daughter', cursive;
   font-size: 20px;
 }
-
 input {
   width: 170px;
   margin-bottom: 18px;
   height: 20px;
 }
-
-#firstname {
+#first-name {
   transform: translateX(5px);
 }
-
-#lastname {
+#last-name {
   transform: translateX(9px);
 }
-
 #email {
   transform: translateX(63px);
 }
-
 #telephone {
   transform: translateX(14px);
 }
-
 #submit {
  font-size:20px;
  height: 35px;
