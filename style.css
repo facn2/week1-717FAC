@@ -17,7 +17,7 @@
   right: 0px;
 }
 #about, #team, #contact {
-  width: 100%;
+  width: 100vw;
 }
 h1 {
 	text-align: left;
